@@ -2217,6 +2217,18 @@ rollup@^4.20.0, rollup@^4.23.0:
     "@rollup/rollup-win32-x64-msvc" "4.30.1"
     fsevents "~2.3.2"
 
+roobar-style@^1.0.0:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/roobar-style/-/roobar-style-1.0.1.tgz#63e438fa0d01eb1d9eed5cd843d5feeead9cd089"
+  integrity sha512-/6Nh4uVnBOiEjznZKwMvLKiDLjlPx8bCnL326E9Qohdb55KYLgIMOlUuy0KSASdgMN1ABxFRQf5B19hZOAcpOg==
+
+roobar@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/roobar/-/roobar-1.0.0.tgz#6cbb96f63824a582bf690f748dec8e5d9351e075"
+  integrity sha512-JOFR0WHp75bEi5sVd8FCsJrYtrAci3gJEI+llfm3EmBrJAmTaISqswD73Ra/aMbCOLuvTyF6wg1VFkgcsskVTQ==
+  dependencies:
+    roobar-style "^1.0.0"
+
 run-parallel@^1.1.9:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/run-parallel/-/run-parallel-1.2.0.tgz#66d1368da7bdf921eb9d95bd1a9229e7f21a43ee"
